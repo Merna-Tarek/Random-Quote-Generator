@@ -22,7 +22,7 @@ var quotes=[
     },
 ];
 function generateQute(){
-    var random = Number.parseInt(Math.random()*quotes.length + 1);
+    var random = Number.parseInt(Math.random()*quotes.length );
     document.getElementById("quoteGenerate").innerHTML=quotes[random].quote;
     document.getElementById("authorGenerate").innerHTML=quotes[random].author;
 }
